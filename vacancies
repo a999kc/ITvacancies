@@ -1,0 +1,38 @@
+const itProfessions = [
+    {
+        id: 1,
+        title: "Frontend Developer",
+        description: "Frontend разработчик занимается созданием пользовательского интерфейса веб-приложений.",
+        skills: ["HTML", "CSS", "JavaScript", "React", "Angular", "Vue.js"]
+    },
+    {
+        id: 2,
+        title: "Backend Developer",
+        description: "Backend разработчик отвечает за создание и поддержку серверной части веб-приложений.",
+        skills: ["Node.js", "Python", "Java", "Ruby", "PHP", "C#", "SQL"]
+    },
+    {
+        id: 3,
+        title: "Full Stack Developer",
+        description: "Full Stack разработчик занимается как frontend, так и backend разработкой веб-приложений.",
+        skills: ["HTML", "CSS", "JavaScript", "Node.js", "React", "Angular", "Vue.js", "SQL", "MongoDB"]
+    },
+    {
+        id: 4,
+        title: "DevOps Engineer",
+        description: "DevOps Engineer отвечает за автоматизацию процессов разработки, тестирования и развертывания программного обеспечения.",
+        skills: ["Linux", "Docker", "Kubernetes", "CI/CD", "Ansible", "Terraform"]
+    },
+    {
+        id: 5,
+        title: "Data Scientist",
+        description: "Data Scientist анализирует и интерпретирует сложные данные, чтобы помочь в принятии бизнес-решений.",
+        skills: ["Python", "R", "Machine Learning", "Data Visualization", "Statistics", "SQL"]
+    }
+    // Другие профессии при необходимости
+];
+
+// Пример использования:
+//console.log(itProfessions[0].title); // Выводит "Frontend Developer"
+//console.log(itProfessions[1].description); // Выводит описание "Backend разработчик отвечает за создание и поддержку серверной части веб-приложений."
+//console.log(itProfessions[2].skills); // Выводит массив навыков ["HTML", "CSS", "JavaScript", "Node.js", "React", "Angular", "Vue.js", "SQL", "MongoDB"]
